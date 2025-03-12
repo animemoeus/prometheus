@@ -11,4 +11,4 @@ scrape_configs:
       - targets: ["api.animemoe.us"]
   - job_name: "unklab_node_exporter"
     static_configs:
-      - targets: ["localhost:9100"]
+      - targets: ["node-exporter.unklab.id"]
